@@ -23,3 +23,33 @@ const mongoURI =
 4. npm start
 
 
+Below is the file structure looks likes 
+build and node_modules will be given to you after creating the react project folder.
+
+build
+node_modules
+public/
+└── images/
+    └── download.jpeg
+src/
+├── components/
+│   ├── About.css
+│   ├── About.js
+│   ├── Home.css
+│   ├── Home.js
+│   ├── Login.css
+│   ├── Login.js
+│   ├── Myrecipes.js
+│   ├── NavBar.css
+│   ├── Navbar.jg
+│   ├── Recipes.css
+│   ├── Recipes.js
+│   ├── Signup.css
+│   ├── Signup.js
+│   ├── Viewrecipes.cs
+│   └── Viewrecipes.js
+├── App.css
+└── App.js
+package-lock.json
+package.json
+sever.js
