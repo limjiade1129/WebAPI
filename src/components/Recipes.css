@@ -1,0 +1,42 @@
+.card-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Adjust height as needed */
+}
+
+.card-button-wrapper > .btn {
+  width: 100%;
+}
+.card-title {
+  font-size: 1.25rem; /* Adjust font size as needed */
+  line-height: 1.4; /* Adjust line height for readability */
+  height: 3.5rem; /* Limit the height to two lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Takes up full viewport height */
+}
+
+.card-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.search-button {
+  margin-top: 20px; /* Adjust this value to lower the button further */
+}
+
+.g-4,
+.gy-4 {
+  --bs-gutter-y: 1.5rem;
+  text-align: -webkit-center;
+}

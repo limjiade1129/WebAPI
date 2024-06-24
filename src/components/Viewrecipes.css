@@ -1,0 +1,57 @@
+/* ViewRecipes.css */
+
+.recipe-container {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.recipe-container h1,
+.recipe-container h2,
+.recipe-container h3 {
+  margin-bottom: 20px;
+}
+
+.recipe-container .row {
+  margin-bottom: 40px;
+}
+
+.recipe-container img {
+  width: 100%;
+  height: auto;
+}
+
+.recipe-container .list-group-item {
+  border: none; /* Remove the border lines */
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.recipe-container .row {
+  margin-bottom: 200px;
+  align-items: center;
+  margin-top: 120px;
+}
+.recipe-container .list-group-item {
+  border: none;
+  font-size: 24px;
+}
+.recipe-container h1,
+.recipe-container h2,
+.recipe-container h3 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+.login-form-container {
+  width: 400px;
+  max-width: 90%;
+  margin-top: -60px;
+}

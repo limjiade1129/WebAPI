@@ -1,0 +1,22 @@
+/* Home.css */
+
+.card-container {
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333; /* Dark color for text */
+}
+
+.card-container .btn-primary {
+  font-size: 1.5rem;
+  padding: 10px 30px;
+}
