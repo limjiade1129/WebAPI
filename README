@@ -1,1 +1,25 @@
-READ ME
+WEB API
+
+Recipe Web Application 
+This is a simple web application that allows users to search for food recipes and allow users to add to favorites.
+This application is built using React, Node.js, Express, MongoDB, and Axios. Below will be list out the npm that needs to be installed.
+
+To run this project locally:
+1. First you need to create react app using npx create-react-app my-react-app.
+2. After creating the react project you can drag the src folder to the react project
+3. Next you can add a folder in public which is called images and add those image to the images folder.
+4. Next add the server.js to the folder
+5. Package.json is for you to refer to what dependencies I have installed.
+
+Step to do Before starting to run the project:
+1. Make sure you change the mongoURI to your MongoDb URI in server.js.
+const mongoURI =
+  "mongodb+srv://jiade:testing123@clusterreact.easjxty.mongodb.net/webapi?retryWrites=true&w=majority&appName=ClusterReact";
+2. Install all the dependencies.
+-npm i axios bootstrap cors express mongoose nodemon react-bootsrap react-router-dom
+
+3. Run node server.js in the terminal to connect the database
+
+4. npm start
+
+
