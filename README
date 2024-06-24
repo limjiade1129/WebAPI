@@ -1,7 +1,8 @@
 WEB API
+Group Member : Lim Jia De , Alex Cheow
 
 Recipe Web Application 
-This is a simple web application that allows users to search for food recipes and allow users to add to favorites.
+This is a simple web application that allows users to search for food recipes and allow users to add to favorites and view them.
 This application is built using React, Node.js, Express, MongoDB, and Axios. Below will be list out the npm that needs to be installed.
 
 To run this project locally:
